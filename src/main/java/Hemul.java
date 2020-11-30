@@ -4,9 +4,7 @@ public class Hemul extends Human {
     }
     public void boom(Fireworks fireworks,String lasts){
         class Time{
-            private String tLasts;
             public Time() {
-                this.tLasts = lasts;
             }
         }
         if ( lasts=="24/7")
